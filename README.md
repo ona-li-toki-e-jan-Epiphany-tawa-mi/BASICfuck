@@ -34,9 +34,9 @@ This can be loaded into a software emulator, or onto a FAT32-formatted usb drive
 
 Once the .d64 file is loaded into your emulator of choice, you can load and run it using the following commands:
 ```BASIC
-LOAD "BASICFUCK",8,1
+LOAD "BASICFUCK",8
 RUN
 ```
-(The 1 assumes that it is the only .d64 loaded, you may need to change it if this is not the case.)
+(The 8 assumes that it is the only .d64 loaded, you may need to change it if this is not the case.)
 
 For putting it onto an actual Commodore 64, you will need to figure it out yourself ;p. Of course, you can always [type it in.](BASICfuck.bas)
