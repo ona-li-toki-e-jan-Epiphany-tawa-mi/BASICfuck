@@ -1,8 +1,6 @@
 # BASICfuck
 A brainfuck REPL for the Commodore 64 written in BASIC.
 
-The current version is rather inefficient. I may make a better one in the future.
-
 ## Implementation details.
 The REPL allocates 15,000 cells of memory, each storing 8-bit integers.
 
@@ -11,8 +9,11 @@ Attempting to move the memory pointer outside of bounds will result in it being 
 
 The REPL will print out the value and location of the curent cell after it finishes executing code.
 
-Inputting a '←' when using ';' will exit the current brainfuck program and return to the program input mode.<br>
+Pressing the F1 key while a brainfuck program is running will abort it, returning you to the input line.
+
 Because of the inner workings of [INPUT](https://www.c64-wiki.com/wiki/INPUT), you might not be able to enter certain characters, yielding an ?EXTRA IGNORED error.
+
+? and ! must be placed at the start of the line to be evaluated. If they are then no other character will be evaluated.
 
 ## Commands.
 #### Brainfuck commands (view [the brainfuck esolangs wiki](https://esolangs.org/wiki/Brainfuck#Language_overview) for more information.)
