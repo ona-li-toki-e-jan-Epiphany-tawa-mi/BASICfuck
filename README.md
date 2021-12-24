@@ -5,7 +5,7 @@ A brainfuck REPL for the Commodore 64 written in BASIC.
 The REPL allocates 16,800 cells of memory, each storing 8-bit integers.<br>
 BASICfuck includes the additional characters '(', ')', '@', and '*' for editing the C64's memory.<br>
 The REPL will print out the value and location of the current cell, along with the current location in C64 memory, after it finishes executing code.<br>
-Pressing the F1 key while a brainfuck program is running will abort it, returning you to the input line.
+Pressing the F1 key while a brainfuck program is running will abort it, returning you to the input line.<br>
 ';' gathers input directly from the keyboard.
 
 Unterminated '[]' loops will yield an ?UNTERMINATED LOOP error.<br>
