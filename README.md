@@ -46,8 +46,8 @@ Keep in mind that these values may change; this might not always work.
 
 #### Cycling screen border colors.
 ```brainfuck
--[->++++++++++[-)))))))))))))))))))))]<]--[--((]+++[-(((((](    Moves the C64 memory pointer to $D020, the location of the border's color. Takes forever.
-+[>*+<]                                                         "Rapidly" switches border color.
+-[->++++++++++[-)))))))))))))))))))))]<]--[--((]+++[-(((((](    Moves the C64 memory pointer to $D020 the location of the border's color Takes forever
++[>*+<]                                                         "Rapidly" switches border color
 ```
 
 #### Cat program / screen editor.
