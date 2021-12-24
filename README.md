@@ -29,9 +29,10 @@ Because of the inner workings of [INPUT](https://www.c64-wiki.com/wiki/INPUT), y
 #### REPL commands.
 - '?' prints help information.
 - '!' exits the REPL.
-'?' and '!' must be placed at the start of the line to be evaluated. If they are then no other character in the line will be evaluated.
 
-Pressing the F1 key while a brainfuck program is running will abort it, returning you to the input line.<br>
+'?' and '!' must be placed at the start of the line to be evaluated. If they are then no other character in the line will be evaluated.
+#### Extra controls.
+Pressing the F1 key while a brainfuck program is running will abort it, returning you to the input line.
 
 ## Example programs. 
 #### Hello World using '@'.
