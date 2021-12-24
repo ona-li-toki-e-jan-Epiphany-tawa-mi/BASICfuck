@@ -2,7 +2,7 @@
 A brainfuck REPL for the Commodore 64 written in BASIC.
 
 ## Implementation details.
-The REPL allocates 16,800 cells of memory, each storing 8-bit integers.<br>
+The REPL allocates 16,800 cells of memory, each storing an 8-bit integer.<br>
 BASICfuck includes the additional characters '(', ')', '@', and '*' for editing the C64's memory.<br>
 The REPL will print out the value and location of the current cell, along with the current location in C64 memory, after it finishes executing code.<br>
 Pressing the F1 key while a brainfuck program is running will abort it, returning you to the input line.<br>
@@ -31,3 +31,24 @@ Because of the inner workings of [INPUT](https://www.c64-wiki.com/wiki/INPUT), y
 #### REPL commands.
 - '?' prints help information.
 - '!' exits the REPL.
+
+## Example programs. 
+#### Hello World using '@'.
+```brainfuck
+@>)@-[<+>--]<--.---.+++++++..+++.                      Prints HELLO
+>(@[-<->]<.>)@[-<+>]<.--------.+++.------.--------.    Prints a space and WORLD
+```
+
+This utilizes the fact that the first two memory addresses of the C64 hold 47 and 55 by default. <br>
+Keep in mind that these values may change; this might not always work.
+
+#### Cycling screen border colors.
+```brainfuck
+-[->++++++++++[-)))))))))))))))))))))]<]--[--((]+++[-(((((](    Moves the C64 memory pointer to $D020, the location of the border's color.
++[>*+<]                                                         "Rapidly" switches border color.
+```
+
+#### Cat program / screen editor.
+```brainfuck
++[;.]
+```
