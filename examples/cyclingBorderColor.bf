@@ -1,0 +1,2 @@
+-[->++++++++++[-)))))))))))))))))))))]<]--[--((]+++[-(((((](    Moves the C64 memory pointer to $D020, the location of the border's color. Takes forever.
++[>*+<]                                                         "Rapidly" switches border color.
