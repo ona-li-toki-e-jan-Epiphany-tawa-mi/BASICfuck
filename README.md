@@ -2,7 +2,7 @@
 A brainfuck REPL for the Commodore 64 written in BASIC.
 
 ## Implementation details.
-The REPL allocates 16,800 cells of memory, each storing an 8-bit integer.<br>
+The REPL allocates 16,500 cells of memory, each storing an 8-bit integer.<br>
 BASICfuck includes the additional characters '(', ')', '@', and '*' for editing the C64's memory.<br>
 The REPL will print out the value and location of the current cell, along with the current location in C64 memory, after it finishes executing code.<br>
 Pressing the F1 key while a brainfuck program is running will abort it, returning you to the input line.<br>
@@ -44,7 +44,7 @@ Keep in mind that these values may change; this might not always work.
 
 #### Cycling screen border colors.
 ```brainfuck
--[->++++++++++[-)))))))))))))))))))))]<]--[--((]+++[-(((((](    Moves the C64 memory pointer to $D020, the location of the border's color.
+-[->++++++++++[-)))))))))))))))))))))]<]--[--((]+++[-(((((](    Moves the C64 memory pointer to $D020, the location of the border's color. Takes forever.
 +[>*+<]                                                         "Rapidly" switches border color.
 ```
 
