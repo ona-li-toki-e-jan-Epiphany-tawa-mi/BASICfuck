@@ -3,13 +3,14 @@ A brainfuck REPL for the Commodore 64 written in BASIC.
 
 ## Implementation details.
 The REPL allocates 16,800 cells of memory, each storing 8-bit integers.<br>
-BASICfuck includes the additional characters (, ), @, and * for editing the C64's memory.<br>
+BASICfuck includes the additional characters '(', ')', '@', and '*' for editing the C64's memory.<br>
 The REPL will print out the value and location of the current cell, along with the current location in C64 memory, after it finishes executing code.<br>
 Pressing the F1 key while a brainfuck program is running will abort it, returning you to the input line.
+';' gathers input directly from the keyboard.
 
-Unterminated [] loops will yield an ?UNTERMINATED LOOP error.<br>
+Unterminated '[]' loops will yield an ?UNTERMINATED LOOP error.<br>
 Attempting to move either memory pointer outside of bounds will result in it being clamped to the edges ([0, 16,800) and [0, 65535]).<br>
-? and ! must be placed at the start of the line to be evaluated. If they are then no other character in the line will be evaluated.<br>
+'?' and '!' must be placed at the start of the line to be evaluated. If they are then no other character in the line will be evaluated.<br>
 Because of the inner workings of [INPUT](https://www.c64-wiki.com/wiki/INPUT), you might not be able to enter certain characters, yielding an ?EXTRA IGNORED error.
 
 ## Commands.
