@@ -9,7 +9,7 @@ The REPL will print out the value and location of the current cell, along with t
 
 Unterminated '[]' loops will yield an ?UNTERMINATED LOOP error.<br>
 Attempting to move either memory pointer outside of bounds will result in it being clamped to the edges ([0, 16,800) and [0, 65535]).<br>
-Because of the inner workings of [INPUT](https://www.c64-wiki.com/wiki/INPUT), you might not be able to enter certain characters, yielding an ?EXTRA IGNORED error.
+Because of the inner workings of [INPUT](https://www.c64-wiki.com/wiki/INPUT "INPUT command information."), you might not be able to enter certain characters, yielding an ?EXTRA IGNORED error.
 
 ## Commands.
 #### Brainfuck commands (view [the brainfuck esolangs wiki](https://esolangs.org/wiki/Brainfuck#Language_overview) for more information.)
@@ -33,6 +33,24 @@ Because of the inner workings of [INPUT](https://www.c64-wiki.com/wiki/INPUT), y
 '?' and '!' must be placed at the start of the line to be evaluated. If they are then no other character in the line will be evaluated.
 #### Extra controls.
 Pressing the F1 key while a brainfuck program is running will abort it, returning you to the input line.
+
+## How to load and run.
+The .prg and disk image (.d64) for BASICfuck can be found in [releases.](https://github.com/ona-li-toki-e-jan-Epiphany-tawa-mi/BASICfuck/releases/tag/BASICfuck-v2.1 "BASICfuck release v2.1.")
+
+If you are using a software emulator like [VICE,](https://vice-emu.sourceforge.io "VICE homepage.") you can either directly load the .prg or attach the disk image and load it.<br>
+If you are using [the C64 Maxi,](https://retrogames.biz/thec64 "The C64 Maxi homepage.") you can put the disk image onto a FAT32-formatted usb drive and attach it. To attach it, insert it into the C64, open the menu, open the media menu, and mount the disk image by pressing enter on it.<br>
+If you are using an acutal Commadore 64, you're on your own :p. I guess you can always [type it in.](BASICfuck.bas "BASICfuck source code.")
+
+Once a disk image is mounted you can load it with:
+```BASIC
+LOAD"BF-REPL",8
+```
+
+And after that or directly loading the .prg, simply type:
+```BASIC
+RUN
+```
+and enjoy your new old brainfuck experience.
 
 ## Example programs. 
 #### Hello World using '@'.
