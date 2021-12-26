@@ -72,3 +72,10 @@ Keep in mind that these values may change; this might not always work.
 ```brainfuck
 +[;.]
 ```
+
+#### Reverse cat.
+```brainfuck
++[;.[->+>+<<]>>[-<<+>>]<-------------]<<[.[-]<]
+```
+
+Type what you want to be reversed, and then press enter. Your input will be displayed as you type it.
