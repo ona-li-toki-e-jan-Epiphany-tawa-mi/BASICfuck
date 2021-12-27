@@ -79,3 +79,13 @@ Keep in mind that these values may change; this might not always work.
 ```
 
 Type what you want to be reversed, and then press enter. Your input will be displayed as you type it.
+
+#### "Random" maze thing.
+```brainfuck
+->+++++[-<---------->]<     Initializes the current cell to 205 the code for the backslash
+[>@)[<+>>]<<.>[<->>]<<<]    Prints out maze Prints a backslash if the selected C64 memory cell is 0 or a forward slash if it is not
+```
+
+This classic program rewritten in BASICfuck brainfuck relies on reading the values stored in the C64's memory to generate "random" numbers. If the selected value in memory is 0, a backslash is printed; if it is not 0, then a forward slash will be printed.<br>
+The data is random enough most of the time, though you will probably find large areas with only one type of slash.
+
