@@ -1,3 +1,5 @@
+View in a different language: [toki pona](README.tok.md "lukin kepeken toki pona"), [Русский](README.ru-RU.md "Смотреть на русском")
+
 # BASICfuck
 A brainfuck REPL for the Commodore 64 written in BASIC.
 
@@ -8,11 +10,11 @@ The REPL will print out the value and location of the current cell, along with t
 ';' gathers input directly from the keyboard.
 
 Unterminated '[]' loops will yield an ?UNTERMINATED LOOP error.<br>
-Attempting to move either memory pointer outside of bounds will result in it being clamped to the edges ([0, 16,800) and [0, 65535]).<br>
+Attempting to move either memory pointer outside of bounds will result in it being clamped to the edges ([0, 16,500) and [0, 65535]).<br>
 Because of the inner workings of [INPUT](https://www.c64-wiki.com/wiki/INPUT "INPUT command information."), you might not be able to enter certain characters, yielding an ?EXTRA IGNORED error.
 
 ## Commands.
-#### Brainfuck commands (view [the brainfuck esolangs wiki](https://esolangs.org/wiki/Brainfuck#Language_overview) for more information.)
+#### Brainfuck commands (view [the brainfuck esolangs wiki](https://esolangs.org/wiki/Brainfuck#Language_overview "Brainfuck esolangs wiki page") for more information.)
 - '+' increments the current cell.
 - '-' decrements the current cell.
 - '<' moves the memory pointer to the left.
