@@ -14,7 +14,7 @@ sina lukin ante e poki nanpa pi tenpo ni tawa poki ala la ona li ante tawa sinpi
 tan [nimi wawa INPUT](https://www.c64-wiki.com/wiki/INPUT "sona pi nimi wawa INPUT (li lon toki Inli en Tosi).") (li lon toki Inli en Tosi) pi toki BASIC la ken la sina ken ala sitelen e sitelen lili (sama ","). ni la ona li toki e ike ?EXTRA IGNORED.
 
 ## nimi wawa.
-#### nimi pi toki Brainfuck (sina wile e sona mute la o lukin [e lipu sona Esolan pi toki Brainfuck](https://esolangs.org/wiki/Brainfuck#Language_overview "lipu sona pi toki Brainfuck lon lipu Esolan (li lon toki Inli)") (li lon toki Inli)).
+#### nimi pi toki Brainfuck (sina wile e sona mute la o lukin [e lipu sona Wikipesija pi toki Brainfuck](https://esolangs.org/wiki/Brainfuck#Language_overview "lipu sona Wikipesija pi toki Brainfuck (li lon toki pona ala)") (li lon toki pona ala)).
 - "+" li en e 1 tawa poki nanpa pi tenpo ni.
 - "-" li weka e 1 tan poki nanpa pi tenpo ni.
 - "<" li pali e ni: poki nanpa lon poka pilin li poki pi tenpo ni.

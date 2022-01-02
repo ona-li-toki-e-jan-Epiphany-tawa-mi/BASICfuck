@@ -14,7 +14,7 @@ Attempting to move either memory pointer outside of bounds will result in it bei
 Because of the inner workings of [INPUT](https://www.c64-wiki.com/wiki/INPUT "INPUT command information."), you might not be able to enter certain characters, yielding an ?EXTRA IGNORED error.
 
 ## Commands.
-#### Brainfuck commands (view [the brainfuck esolangs wiki](https://esolangs.org/wiki/Brainfuck#Language_overview "Brainfuck esolangs wiki page") for more information.)
+#### Brainfuck commands (view [the brainfuck Wikipedia page](https://wikipedia.org/wiki/Brainfuck "Brainfuck Wikipedia page.") for more information.)
 - '+' increments the current cell.
 - '-' decrements the current cell.
 - '<' moves the memory pointer to the left.
