@@ -92,6 +92,6 @@ RUN
 Значения в памяти обычно достаточно случайные, хотя есть большие области лишь с одним типом косых.
 
 ## Ссылки.
-Демонстрация:
-https://www.youtube.com/watch?v=BX5EbqdaMaM
+Демонстрация:<br>
+https://www.youtube.com/watch?v=BX5EbqdaMaM<br>
 https://www.bitchute.com/video/gKh0jxg520In

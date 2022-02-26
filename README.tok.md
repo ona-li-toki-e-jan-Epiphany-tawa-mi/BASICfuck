@@ -92,7 +92,6 @@ lipu ni pi suli mute li sitelen sin lon toki Brainfuck pi ilo BASICfuck li kepek
 tenpo mute la nanpa ni li "jo e nasin ala". taso, kin la sina lukin e ma suli pi "\\" taso anu "/" taso.
 
 ## lupa tawa lipu ante.
-pana pi ilo BASICfuck:
-https://www.youtube.com/watch?v=BX5EbqdaMaM
+pana pi ilo BASICfuck:<br>
+https://www.youtube.com/watch?v=BX5EbqdaMaM<br>
 https://www.bitchute.com/video/gKh0jxg520In
-
