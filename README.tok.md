@@ -91,3 +91,8 @@ o sitelen e nimi o pilin e nena ENTER. sina sitelen la ona li toki e sitelen sin
 lipu ni pi suli mute li sitelen sin lon toki Brainfuck pi ilo BASICfuck li kepeken e nanpa lon poki nanpa pi ilo Kamato 64 tawa pali e nanpa ante pi "nasin ala". poki pi tenpo ni li jo e 0 la ona li sitelen e "\\". ni ala la ona li sitelen e "/".<br>
 tenpo mute la nanpa ni li "jo e nasin ala". taso, kin la sina lukin e ma suli pi "\\" taso anu "/" taso.
 
+## lupa tawa lipu ante.
+pana pi ilo BASICfuck:
+https://www.youtube.com/watch?v=BX5EbqdaMaM
+https://www.bitchute.com/video/gKh0jxg520In
+

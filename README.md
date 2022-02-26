@@ -91,3 +91,7 @@ Type what you want to be reversed, and then press enter. Your input will be disp
 This classic program rewritten in BASICfuck brainfuck relies on reading the values stored in the C64's memory to generate "random" numbers. If the selected value in memory is 0, a backslash is printed; if it is not 0, then a forward slash will be printed.<br>
 The data is random enough most of the time, though you will probably find large areas with only one type of slash.
 
+## Links.
+Demonstration:
+https://www.youtube.com/watch?v=BX5EbqdaMaM
+https://www.bitchute.com/video/gKh0jxg520In
