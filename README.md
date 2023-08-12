@@ -93,5 +93,4 @@ The data is random enough most of the time, though you will probably find large 
 
 ## Links.
 Demonstration:<br>
-https://www.youtube.com/watch?v=BX5EbqdaMaM<br>
-https://www.bitchute.com/video/gKh0jxg520In
+https://www.youtube.com/watch?v=BX5EbqdaMaM

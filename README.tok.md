@@ -93,5 +93,4 @@ tenpo mute la nanpa ni li "jo e nasin ala". taso, kin la sina lukin e ma suli pi
 
 ## lupa tawa lipu ante.
 pana pi ilo BASICfuck:<br>
-https://www.youtube.com/watch?v=BX5EbqdaMaM<br>
-https://www.bitchute.com/video/gKh0jxg520In
+https://www.youtube.com/watch?v=BX5EbqdaMaM

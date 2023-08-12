@@ -93,5 +93,4 @@ RUN
 
 ## Ссылки.
 Демонстрация:<br>
-https://www.youtube.com/watch?v=BX5EbqdaMaM<br>
-https://www.bitchute.com/video/gKh0jxg520In
+https://www.youtube.com/watch?v=BX5EbqdaMaM
