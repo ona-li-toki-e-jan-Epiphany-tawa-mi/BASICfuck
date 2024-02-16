@@ -54,7 +54,7 @@ RUN
 ```
 and enjoy your new old brainfuck experience.
 
-## Example programs. 
+## Example programs.
 #### Hello World using '@'.
 ```brainfuck
 @>)@-[<+>--]<--.---.+++++++..+++.                      Prints HELLO
@@ -93,4 +93,4 @@ The data is random enough most of the time, though you will probably find large 
 
 ## Links.
 Demonstration:<br>
-https://www.youtube.com/watch?v=BX5EbqdaMaM
+https://odysee.com/BASICfuck-Demonstration---a-Brainfuck-REPL-for-the-Commodore-64:e0e5115474fe6334db53f93302e35adb86c45e6a?r=HYroMZaqrVN4gL5oSJ35gcTgt3K56r39

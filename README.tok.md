@@ -34,14 +34,14 @@ tan [nimi wawa INPUT](https://www.c64-wiki.com/wiki/INPUT "sona pi nimi wawa INP
 
 nimi "?" en "!" li wile lon open pi nasin sitelen tawa ni: ilo REPL li pali e ona. ona li lon ni la ilo REPL li pali ala e nimi ante.
 #### nasin kepeken sin.
-sina pilin e nena F1 la ilo REPL li pini pali e nimi. 
+sina pilin e nena F1 la ilo REPL li pini pali e nimi.
 
 ## nasin pi kama jo en open.
 poki nimi .prg en .d64 tawa ilo BASICfuck li lon [lipu Releases.](https://github.com/ona-li-toki-e-jan-Epiphany-tawa-mi/BASICfuck/releases/tag/BASICfuck-v2.1 "poki nimi pi ilo BASICfuck pi suli 2.1.")
 
 sina kepeken e ilo pi sama e ilo nanpa Kamato 64 (sama [ilo VICE](https://vice-emu.sourceforge.io "lipu suli pi ilo VICE (li lon toki Inli).") (li lon toki Inli)) la sina ken open e ona kepeken poki .prg kin anu pana e poki .d64 lon ona en kama jo e ijo lon ona.<br>
 sina kepeken [e ilo C64 Maxi](https://retrogames.biz/thec64 "lipu suli pi ilo C64 Maxi (li lon toki Inli).") (li lon toki Inli) la sina ken pana e poki .d64 lon poki palisa kiwen USB pi poki nimi pi nasin poki FAT32 en pana e poki palisa ni lon ilo C64 Maxi. ni la sina ken pilin e nena wawa anu nena SHIFT en "←" li ken open e lipu Media en pilin e nena ENTER lon poki .d64.<br>
-sina kepeken e ilo Kamato 64 sama sama la... mi ken ala pana e sona pona tawa sina :p. kin la sina ken [sitelen e ona](BASICfuck.bas "nimi wawa pi ilo BASICfuck.") kepeken ilo sitelen. 
+sina kepeken e ilo Kamato 64 sama sama la... mi ken ala pana e sona pona tawa sina :p. kin la sina ken [sitelen e ona](BASICfuck.bas "nimi wawa pi ilo BASICfuck.") kepeken ilo sitelen.
 
 poki .d64 li lon la sina ken kama jo e ijo lon ona kepeken ni:
 ```BASIC
@@ -80,7 +80,7 @@ taso, o sona e ni: nanpa ni li ken ante. toki pona la ken la ni li pali ala lon 
 +[;.[->+>+<<]>>[-<<+>>]<-------------]<<[.[-]<]
 ```
 
-o sitelen e nimi o pilin e nena ENTER. sina sitelen la ona li toki e sitelen sina. ona li wile e tenpo mute. 
+o sitelen e nimi o pilin e nena ENTER. sina sitelen la ona li toki e sitelen sina. ona li wile e tenpo mute.
 
 #### li pali e nasin mute nasa pi "nasin ala".
 ```brainfuck
@@ -93,4 +93,4 @@ tenpo mute la nanpa ni li "jo e nasin ala". taso, kin la sina lukin e ma suli pi
 
 ## lupa tawa lipu ante.
 pana pi ilo BASICfuck:<br>
-https://www.youtube.com/watch?v=BX5EbqdaMaM
+https://odysee.com/BASICfuck-Demonstration---a-Brainfuck-REPL-for-the-Commodore-64:e0e5115474fe6334db53f93302e35adb86c45e6a?r=HYroMZaqrVN4gL5oSJ35gcTgt3K56r39
