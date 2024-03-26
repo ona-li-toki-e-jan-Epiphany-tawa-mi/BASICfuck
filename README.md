@@ -1,26 +1,8 @@
+**!!NOTICE!!:** This project is no longer developed or maintained.
+
 # BASICfuck
 
 A brainfuck REPL for the Commodore 64 written in BASIC.
-
-## Implementation details
-
-The REPL allocates 16,500 cells of memory, each storing an 8-bit integer.
-
-BASICfuck includes the additional characters '(', ')', '@', and '*' for editing
-the C64's memory.
-
-The REPL will print out the value and location of the current cell, along with
-the current location in C64 memory, after it finishes executing code.
-
-';' gathers input directly from the keyboard.
-
-Unterminated '[]' loops will yield an ?UNTERMINATED LOOP error.
-
-Attempting to move either memory pointer outside of bounds will result in it
-being clamped to the edges ([0, 16,500) and [0, 65535]).
-
-Because of the inner workings of INPUT (https://www.c64-wiki.com/wiki/INPUT),
-you might not be able to enter certain characters, yielding an ?EXTRA IGNORED error.
 
 ## Commands
 
@@ -55,6 +37,12 @@ then no other character in the line will be evaluated.
 Pressing the F1 key while a brainfuck program is running will abort it,
 returning you to the input line.
 
+## How to build.
+
+At the time of development, I used CBM prg Studio (https://www.ajordison.co.uk).
+to create the .prg and disk images. I don't remember how the process went, but
+it shouldn't be too hard to figure out.
+
 ## How to load and run
 
 The .prg and disk image (.d64) for BASICfuck can be found in the releases tab
@@ -85,6 +73,26 @@ RUN
 ```
 
 and enjoy your new old brainfuck experience.
+
+## Implementation details
+
+The REPL allocates 16,500 cells of memory, each storing an 8-bit integer.
+
+BASICfuck includes the additional characters '(', ')', '@', and '*' for editing
+the C64's memory.
+
+The REPL will print out the value and location of the current cell, along with
+the current location in C64 memory, after it finishes executing code.
+
+';' gathers input directly from the keyboard.
+
+Unterminated '[]' loops will yield an ?UNTERMINATED LOOP error.
+
+Attempting to move either memory pointer outside of bounds will result in it
+being clamped to the edges ([0, 16,500) and [0, 65535]).
+
+Because of the inner workings of INPUT (https://www.c64-wiki.com/wiki/INPUT),
+you might not be able to enter certain characters, yielding an ?EXTRA IGNORED error.
 
 ## Example programs
 
